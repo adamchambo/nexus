@@ -1,0 +1,59 @@
+# .NET build and publish output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Pp]ublish/
+
+# IDE and user-specific settings
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Test results and coverage
+[Tt]est[Rr]esults/
+coverage/
+coverage-report/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.xml
+coverage*.json
+
+# Logs and temporary files
+[Ll]ogs/
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+!.env.*.example
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep normal appsettings files, EF migrations, and dependency lockfiles tracked.
+# Store credentials in user-secrets or environment variables, not appsettings.
